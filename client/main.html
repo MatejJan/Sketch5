@@ -1,0 +1,16 @@
+<head>
+  <title>Sketch5</title>
+</head>
+
+<body>
+  <h1>Sketch5</h1>
+  <p>To start, send an email to sketch5@retronator.com with the phrase sign up in the subject.</p>
+  {{> stats}}
+</body>
+
+<template name="stats">
+  {{#with stats}}
+    <p>Current stats:</p>
+    <p>Users: {{count}}</p>
+  {{/with}}
+</template>

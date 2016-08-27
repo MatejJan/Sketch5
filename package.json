@@ -1,0 +1,11 @@
+{
+  "name": "sketch5",
+  "private": true,
+  "scripts": {
+    "start": "meteor run"
+  },
+  "dependencies": {
+    "meteor-node-stubs": "~0.2.0",
+    "multiparty": "^4.1.2"
+  }
+}
